@@ -1,0 +1,23 @@
+{{ define "main" }}
+<article class="assignment">
+    {{ partial "breadcrumbs.html" . }}
+    <header class="assignment-header">
+        <h1>{{ .Title }}</h1>
+        <div class="due-date">
+            <strong>Due Date:</strong> {{ .Params.due_date | time.Format "January 2, 2006"  }}
+            {{ if .Params.status }}&nbsp;<strong>Status:</strong>{{ .Params.status | markdownify }}{{ end }}
+        </div>
+        </div>
+        <!-- {{ with .Params.due_date }}
+        <div class="due-date">
+            <strong>Due Date:</strong> {{ . }}
+        </div>
+        {{ end }} -->
+    </header>
+    
+    <div class="assignment-content">
+        <!-- <pre>{{ printf "%#v" .Params }}</pre>       -->
+        {{ .Content }}
+    </div>
+</article>
+{{ end }}
