@@ -4,6 +4,6 @@ due_date = '2025-03-31'
 draft = false
 title = 'AI Tutor Project'
 weight = 30
-status = 'Posted'
+status = 'Not Posted'
 +++
 TBA

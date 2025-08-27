@@ -4,6 +4,6 @@ due_date = "2025-11-12"
 draft = false
 title = 'Computer Vision Project'
 weight = 20
-status = 'Posted'
+status = 'Not Posted'
 +++
 TBA: Computer Vision Project
