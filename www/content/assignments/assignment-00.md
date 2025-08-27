@@ -1,6 +1,6 @@
 +++
 date = '2025-01-06T18:20:46-05:00'
-due_date = "2025-09-03"
+due_date = "2025-09-10"
 draft = false
 title = 'Tutor Design Ideas'
 weight = 1

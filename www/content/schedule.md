@@ -1,8 +1,8 @@
 | Day        | Session   | Topic                                                        | InClass   | DueBeforeClass                                  | Reading   |
 |:-----------|:----------|:-------------------------------------------------------------|:----------|:------------------------------------------------|:----------|
 | 2025-08-27 | 1         | Course overview, Transformative Impact of GenAI in Education |           |                                                 |           |
-| 2025-09-03 | 2         | Agentic AI, Tutor Architecture, MCP tools                    | Quiz 1    | Tutor Design                                    | TBA       |
-| 2025-09-10 | 3         | Tutor Design Review                                          | Quiz 2    |                                                 | TBA       |
+| 2025-09-03 | 2         | Agentic AI, Tutor Architecture, MCP tools                    | Quiz 1    |                                                 | TBA       |
+| 2025-09-10 | 3         | Tutor Design Review                                          | Quiz 2    | Tutor Design                                    | TBA       |
 | 2025-09-17 | 4         | Apache Spark & Advanced DataFrames                           | Quiz 3    |                                                 | TBA       |
 | 2025-09-24 | 5         | Efficient Data Processing and Optimization                   | Quiz 4    |                                                 | TBA       |
 | 2025-10-01 | 6         | Machine Learning Pipelines in Spark Mllib                    | Quiz 5    |                                                 | TBA       |

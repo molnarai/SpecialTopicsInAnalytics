@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Schedule",
     "source": "../../F25/MSA8395_Fall25_Schedule.xlsx",
-    "created": "2025-08-27T13:08:06.576601"
+    "created": "2025-08-27T13:56:11.929289"
   },
   "records": [
     {
@@ -18,7 +18,7 @@
       "Session": "2",
       "Topic": "Agentic AI, Tutor Architecture, MCP tools",
       "InClass": "Quiz 1",
-      "DueBeforeClass": "Tutor Design",
+      "DueBeforeClass": "",
       "Reading": "TBA"
     },
     {
@@ -26,7 +26,7 @@
       "Session": "3",
       "Topic": "Tutor Design Review",
       "InClass": "Quiz 2",
-      "DueBeforeClass": "",
+      "DueBeforeClass": "Tutor Design",
       "Reading": "TBA"
     },
     {
