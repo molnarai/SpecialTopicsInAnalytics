@@ -1,0 +1,69 @@
+baseURL = 'http://www.insight.gsu.edu'
+languageCode = 'en-us'
+title = 'MSA 8395'
+theme = 'pmolnar'
+
+[services]
+  [services.googleAnalytics]
+    ID = "G-76SMSN09P2"
+
+[Params]
+  description = "MSA 8395 - Special Topics in Analytics"
+  images = ['/digital-garden-logo.png']
+  enableSearch = true
+
+[menu]
+[[menu.main]]
+  name = 'Home'
+  url = '/'
+  weight = 1
+#[[menu.main]]
+#  name = 'Subjects'
+#  url = '/subjects'
+#  weight = 2
+[[menu.main]]
+  name = 'Topics'
+  url = '/topics'
+  weight = 3
+[[menu.main]]
+  name = 'Assignments'
+  url = '/assignments'
+  weight = 4
+#[[menu.main]]
+#  name = 'Project'
+#  url = '/project'
+#  weight = 5
+[[menu.main]]
+  name = 'Resources'
+  url = '/resources'
+  weight = 6
+[[menu.main]]
+  name = 'GitHub'
+  url = 'https://github.com/molnarai/SpecialTopicsInAnalytics'
+  html = '<i class="fab fa-github" style="font-size:24px"></i>'
+  weight = 7
+
+
+# syntax highlight settings
+[markup]
+  [markup.highlight]
+    style = "dracula"
+  [markup.goldmark.renderer]
+    # Enable to include inline HTML
+    unsafe = true
+
+
+[sitemap]
+  changeFreq = ''
+  disable = false
+  filename = 'sitemap.xml'
+  priority = -1
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[params.wiki]
+  enableSearch = true
+  enableTOC = true
+  enableBreadcrumbs = true

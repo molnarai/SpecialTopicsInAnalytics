@@ -1,15 +1,55 @@
 body {
   color: #222;
   font-family: sans-serif;
-  line-height: 1.5;
-  margin: 1rem 3rem;
-  /* max-width: 768px; */
+  line-height: 1.6;
+  margin: 0;
+  padding: 1rem;
   max-width: 100%;
+}
+
+/* Main content container for optimal readability */
+main {
+  /* max-width: 65ch; */
+  max-width: 120ch;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Wider container for tables and code blocks */
+.wide-content {
+  max-width: 120ch;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 0.5rem;
+  }
+  main {
+    padding: 0 0.5rem;
+  }
 }
 
 header {
   border-bottom: 1px solid #222;
   margin-bottom: 1rem;
+}
+
+/* Navbar styling to match main content */
+.navbar {
+  max-width: 65ch;
+  margin: 0 auto;
+  padding: 0 1rem;
+  background: transparent !important;
+}
+
+.navbar .container-fluid {
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0 0.5rem;
+  }
 }
 
 footer {
@@ -232,11 +272,73 @@ a {
   color: red;
 }
 
-table {
-  border-color: #eee;
-  border-width: 1px;
+/* Reduced heading sizes with better spacing */
+h1 { 
+  font-size: 1.8em;
+  margin: 1.5rem 0 1rem 0;
+}
+h2 { 
+  font-size: 1.5em;
+  margin: 1.5rem 0 0.8rem 0;
+}
+h3 { 
+  font-size: 1.3em;
+  margin: 1.3rem 0 0.6rem 0;
+}
+h4 { 
+  font-size: 1.1em;
+  margin: 1.2rem 0 0.5rem 0;
+}
+h5 { 
+  font-size: 1em;
+  margin: 1rem 0 0.5rem 0;
+}
+h6 { 
+  font-size: 0.9em;
+  margin: 1rem 0 0.5rem 0;
 }
 
-table td,th {
-  padding: 2px 2px;  
+/* Better paragraph spacing */
+p {
+  margin: 0 0 1rem 0;
+}
+
+/* Table styling with thin, light borders */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5rem 0;
+  border: 1px solid #e0e0e0;
+  overflow-x: auto;
+  display: block;
+  white-space: nowrap;
+}
+
+@media (min-width: 768px) {
+  table {
+    display: table;
+    white-space: normal;
+  }
+}
+
+table th {
+  background-color: #f8f9fa;
+  border: 1px solid #e0e0e0;
+  padding: 8px 12px;
+  text-align: left;
+  font-weight: 600;
+}
+
+table td {
+  border: 1px solid #e0e0e0;
+  padding: 8px 12px;
+  vertical-align: top;
+}
+
+table tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+table tr:hover {
+  background-color: #f0f0f0;
 }

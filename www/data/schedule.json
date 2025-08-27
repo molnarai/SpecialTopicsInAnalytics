@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "title": "Schedule",
+    "source": "../../F25/MSA8395_Fall25_Schedule.xlsx",
+    "created": "2025-08-27T13:08:06.576601"
+  },
+  "records": [
+    {
+      "Day": "2025-08-27",
+      "Session": "1",
+      "Topic": "Course overview, Transformative Impact of GenAI in Education",
+      "InClass": "",
+      "DueBeforeClass": "",
+      "Reading": ""
+    },
+    {
+      "Day": "2025-09-03",
+      "Session": "2",
+      "Topic": "Agentic AI, Tutor Architecture, MCP tools",
+      "InClass": "Quiz 1",
+      "DueBeforeClass": "Tutor Design",
+      "Reading": "TBA"
+    },
+    {
+      "Day": "2025-09-10",
+      "Session": "3",
+      "Topic": "Tutor Design Review",
+      "InClass": "Quiz 2",
+      "DueBeforeClass": "",
+      "Reading": "TBA"
+    },
+    {
+      "Day": "2025-09-17",
+      "Session": "4",
+      "Topic": "Apache Spark & Advanced DataFrames",
+      "InClass": "Quiz 3",
+      "DueBeforeClass": "",
+      "Reading": "TBA"
+    },
+    {
+      "Day": "2025-09-24",
+      "Session": "5",
+      "Topic": "Efficient Data Processing and Optimization",
+      "InClass": "Quiz 4",
+      "DueBeforeClass": "",
+      "Reading": "TBA"
+    },
+    {
+      "Day": "2025-10-01",
+      "Session": "6",
+      "Topic": "Machine Learning Pipelines in Spark Mllib",
+      "InClass": "Quiz 5",
+      "DueBeforeClass": "",
+      "Reading": "TBA"
+    },
+    {
+      "Day": "2025-10-08",
+      "Session": "7",
+      "Topic": "Graph Analytics & Advanced Topics",
+      "InClass": "Quiz 6",
+      "DueBeforeClass": "",
+      "Reading": "TBA"
+    },
+    {
+      "Day": "2025-10-15",
+      "Session": "8",
+      "Topic": "Fundamentals of Image Processing for Analytics",
+      "InClass": "Quiz 7",
+      "DueBeforeClass": "Spark Project",
+      "Reading": "TBA"
+    },
+    {
+      "Day": "2025-10-22",
+      "Session": "9",
+      "Topic": "From Features to Classical Machine Learning",
+      "InClass": "Quiz 8",
+      "DueBeforeClass": "",
+      "Reading": "TBA"
+    },
+    {
+      "Day": "2025-10-29",
+      "Session": "10",
+      "Topic": "Deep Learning for Computer Vision",
+      "InClass": "Quiz 9",
+      "DueBeforeClass": "",
+      "Reading": "TBA"
+    },
+    {
+      "Day": "2025-11-05",
+      "Session": "11",
+      "Topic": "Generative and Advanced Methods in Vision",
+      "InClass": "Quiz 10",
+      "DueBeforeClass": "",
+      "Reading": "TBA"
+    },
+    {
+      "Day": "2025-11-12",
+      "Session": "12",
+      "Topic": "Development Lab",
+      "InClass": "",
+      "DueBeforeClass": "Computer Vision Project",
+      "Reading": "TBA"
+    },
+    {
+      "Day": "2025-11-19",
+      "Session": "13",
+      "Topic": "Development Lab",
+      "InClass": "",
+      "DueBeforeClass": "Tutor App Preview Posted",
+      "Reading": "TBA"
+    },
+    {
+      "Day": "2025-11-26",
+      "Session": "",
+      "Topic": "-- Thanksgiving Week --",
+      "InClass": "",
+      "DueBeforeClass": "",
+      "Reading": "TBA"
+    },
+    {
+      "Day": "2025-12-03",
+      "Session": "14",
+      "Topic": "Tutor Application Presentation and Demo",
+      "InClass": "",
+      "DueBeforeClass": "Tutor Application Project/ Tutor App Evalutaion",
+      "Reading": "TBA"
+    },
+    {
+      "Day": "2025-12-10",
+      "Session": "",
+      "Topic": "-- Submit final version of project --",
+      "InClass": "",
+      "DueBeforeClass": "Final Artificats",
+      "Reading": ""
+    }
+  ]
+}
