@@ -16,6 +16,10 @@ Significant attention is given to the limitations and challenges of conventional
 Additionally, the integration of generative AI introduces new approaches to instructional design, such as constructivist and scaffolded learning with AI tutors, gamification, and authentic project-based assessments. These strategies not only enhance content delivery, but also align with real-world data science practice, better preparing students for professional environments.
 
 Finally, the talk encourages students to think innovatively about building next-generation learning tools using generative AI. It emphasizes the importance of ethical considerations and responsible AI use, encouraging graduate students to design educational solutions that are not just technically advanced but also accessible, equitable, and responsive to the evolving landscape of data science professions.
+
+
+**Perplexity post:** [GenAI Transforming Data Science Education](https://www.perplexity.ai/page/genai-transforming-data-scienc-N2Yn9w5iRgipt4vmMD2EOw)
+
 <!-- 
 [1](https://er.educause.edu/articles/2025/1/generative-artificial-intelligence-and-education-a-brief-ethical-reflection-on-autonomy)
 [2](https://education.illinois.edu/about/news-events/news/article/2024/10/24/ai-in-schools--pros-and-cons)

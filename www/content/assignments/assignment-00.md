@@ -13,6 +13,7 @@ Present your idea for an AI tutor:
 2. Audience: Who are the students using this tutor?
 3. Learning Style: Which style of learning is addressed?
 4. Quality and Guardrails: How to ensure quality responses, avoid harmful content?
+5. How to measure success?
 
 Submit your design concept as 3-minute pitch presentation (PPTX or PDF) to iCollege.
 
