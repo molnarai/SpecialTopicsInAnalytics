@@ -9,3 +9,5 @@ subtopic = 'tutor-architecture'
 
 This session covers the overall architecture of AI Tutor applications.
 <!-- more -->
+
+![../assets/]
