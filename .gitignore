@@ -332,3 +332,5 @@ dist
 
 .DISCLAIMER*
 src/*/data/*
+data/
+
