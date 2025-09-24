@@ -19,16 +19,16 @@ Write a PySpark program that analyzes one large public dataset, generates at lea
 
 1. Select Your Dataset
    Choose one of:
-   -	NYC Yellow Taxi Trip Data (Kaggle or NYC official data portal)
-   -	MovieLens Movie Ratings (GroupLens/Kaggle)
-   -	COVID-19 Open Data (Johns Hopkins CSSE, Our World in Data, or Google COVID-19 Open Data)
+   -	NYC Yellow Taxi Trip Data [TLC Trip Record Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
+   -	MovieLens Movie Ratings [MovieLens 20M Dataset](https://www.kaggle.com/datasets/grouplens/movielens-20m-dataset?select=tag.csv)
+   -	COVID-19 Open Data [Our World in Data/Covid-19](https://docs.owid.io/projects/etl/api/covid/)
 2. Define Three Insights
-   Pick and clearly describe three insights (see the dataset-insight matrix in the previous instructions). Each should be significant and suitable for visual representation (e.g., trends, comparisons, distributions).
+   Pick and clearly describe three insights. Each should be significant and suitable for visual representation (e.g., trends, comparisons, distributions).
 3. Data Processing and Analysis
    -	Ingest and process the dataset using PySpark DataFrames and/or SQL.
    -	Perform cleaning, type conversions, and any necessary preprocessing.
    -	Carefully compute your chosen insights.
-4. Visualization Requirement (REVISED)
+4. Visualization Requirement
    -	For each insight, generate at least one static plot using matplotlib, seaborn, or any comparable static visualization package.
       - Each plot must be meaningful: Examples include time series charts, bar plots, histograms, heatmaps, scatter plots, or maps.
       - You may convert Spark DataFrames to Pandas (using .toPandas()) before plotting if needed, but only after the spark-based processing is complete.
