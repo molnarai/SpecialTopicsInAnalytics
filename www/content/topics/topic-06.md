@@ -27,7 +27,7 @@ Model evaluation and hyperparameter tuning
 Exporting and deploying Spark models" -->
 
 
-## Required Reading and Listening
+## Reading and Listening
 <!-- Listen to the podcast ((../../podcasts/podcast-05-frameworks-benchmarks/)): -->
 <!-- Listen to the podcast:
 
@@ -36,12 +36,20 @@ Exporting and deploying Spark models" -->
     Your browser does not support the audio element.
 </audio> -->
 
-<!-- Read the following:
-1. Perplexity blog: [RAG and Semantic Search](https://www.perplexity.ai/page/rag-and-semantic-search-LwzgO8F2Tym.05Momy.B5A)
-2. Textbook: [Chapter 8: Hands-On Large Language Models](https://go.oreilly.com/georgia-state-university/library/view/hands-on-large-language/9781098150952/ch08.html)
-3. Paper: [Retrieval Augmented Generation (RAG) and Beyond: A Comprehensive Survey on How to Make your LLMs use External Data More Wisely](https://arxiv.org/abs/2409.14924) -->
+<!-- Read the following: -->
+<!-- 1. Perplexity blog: [RAG and Semantic Search](https://www.perplexity.ai/page/rag-and-semantic-search-LwzgO8F2Tym.05Momy.B5A)
+2. Textbook: [Chapter 8: Hands-On Large Language Models](https://go.oreilly.com/georgia-state-university/library/view/hands-on-large-language/9781098150952/ch08.html) -->
+
+
+1. Textbook: [Apache Spark for Machine Learning](https://go.oreilly.com/georgia-state-university/library/view/apache-spark-for/9781804618165/), Deepak Gowda, November 2024, Packt Publishing.
+1. [Chapter 8: Mining Frequent Patterns](https://go.oreilly.com/georgia-state-university/library/view/apache-spark-for/9781804618165/B21985_08.xhtml)
+1. [Chapter 9: Model Deployment](https://go.oreilly.com/georgia-state-university/library/view/apache-spark-for/9781804618165/B21985_Part_4.xhtml)
 
 
 ## Additional Resources
-- []()...
-
+- GitHub :[Apache Spark for Machine Learning](https://github.com/PacktPublishing/Apache-Spark-for-Machine-Learning)
+- [Apache Spark Machine Learning](https://spark.apache.org/docs/latest/ml-guide.html)
+- [PySpark MLlib API Referece](https://spark.apache.org/docs/latest/api/python/reference/pyspark.ml.html)
+- [XGBoost for PySpark](https://xgboost.readthedocs.io/en/stable/tutorials/spark_estimator.html)
+- [Spark NLP](https://sparknlp.org/) by John Snow Labs (open source version provides NER, POS, sentiment)
+- [Squential Pattern Mining Framework SPMF](https://www.philippe-fournier-viger.com/spmf/) comprehensive library of pattern mining algorithmms
