@@ -1,7 +1,7 @@
 +++
 date = '2025-10-01'
 draft = false
-title = 'Machine Learning Pipelines in Spark Mllib'
+title = 'Machine Learning with Spark Mllib'
 weight = 60
 numsession = 6
 +++
