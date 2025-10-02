@@ -162,3 +162,113 @@ The sources categorize distributed graph tasks into seven main topics.
     *   **Use Case**: Useful in resource distribution problems, like pairing tasks to workers.
 *   **Graph Coloring**: Assigns a "color" to each vertex so that no two adjacent vertices share the same color, using the minimum number of colors.
     *   **Use Case**: Applied to scheduling and resource allocation problems, such as assigning frequencies to cell towers to avoid interference.
+
+
+# Glossary
+
+### Basic Graph Concepts
+
+- **Graph**: A structure consisting of a set of vertices (nodes) and edges (relationships). Graphs may be directed or undirected, and weighted or unweighted.
+
+- **Vertex (Node)**: An entity or point within a graph representing objects such as individuals in a social network or proteins in a biological network.
+
+- **Edge**: Connection between two vertices, representing relationships or interactions.
+
+- **Degree**: The number of edges attached to a vertex. In directed graphs, it is split into in-degree (incoming edges) and out-degree (outgoing edges).
+
+- **Neighbor**: Any vertex directly connected by an edge to a given vertex.
+
+- **Path**: A sequence of vertices connected by edges.
+
+- **Cycle**: A path that starts and ends at the same vertex, with all vertices and edges distinct except the first and last.
+
+- **Tree/Forest**: A tree is a connected acyclic subgraph; a forest is a disjoint union of trees.
+
+***
+
+### Graph Metrics
+
+- **Density**: The ratio between the number of edges present and the maximum possible number of edges in the graph. Sparse graphs have low density.
+
+- **Diameter**: The length of the longest shortest path between any pair of vertices in the graph.
+
+- **Clustering Coefficient**: Measures the degree to which nodes cluster together. High values indicate a tendency to form tightly knit groups (clusters or communities).
+
+***
+
+### Centralities
+
+Centrality quantifies the relative importance of a vertex within the network:
+
+- **Degree Centrality**: Importance of a node based on its degree. Nodes with more connections are considered central.
+
+- **Closeness Centrality**: Measures how close a node is to all others, computed as the inverse of the average shortest path length from the node to all other nodes.
+
+- **Betweenness Centrality**: Quantifies how often a node acts as a bridge along shortest paths between other nodes. Critical for identifying broker nodes in information flow.
+
+- **PageRank**: Based on a random walk model, it estimates the probability that a node will be visited in the long run. Originally developed for ranking web pages.
+
+- **Personalized PageRank**: Variation of PageRank focused on ranked walks starting from a specific source node.
+
+***
+
+### Subgraphs and Subgraph Structures
+
+- **Subgraph**: A graph formed from a subset of the vertices and edges of a larger graph.
+
+- **Clique**: A complete subgraph where every pair of vertices is connected by an edge. A k-clique has k vertices all mutually connected.
+
+- **k-Core**: A subgraph in which every vertex has at least k connections. Useful for identifying highly connected regions.
+
+- **k-Truss**: A subgraph in which each edge is involved in at least (k-2) triangles, providing a more robust notion of cohesion than k-core.
+
+- **Motif**: A small, recurring, significant pattern or subgraph (such as triangles, chains, stars) in complex graphs.
+
+- **Community**: A subset of vertices with dense connections within the subset and sparse connections to the rest of the graph. Community detection is a key graph analytic task.
+
+***
+
+### Community and Graph Partitioning Terminology
+
+- **Community Detection**: Algorithms and analytics used to identify groups of nodes with high intra-group connectivity and low inter-group connectivity.
+
+- **Modularity**: A quality metric evaluating how well a graph is partitioned into communities—higher modularity means denser connections within communities than between them.
+
+- **Louvain Method**: Heuristic algorithm to optimize modularity and detect communities efficiently, notable for scalability.
+
+- **Label Propagation Algorithm (LPA)**: Assigns labels to nodes based on their neighbors' majority labels, allowing for fast community detection especially in large graphs.
+
+- **Spectral Clustering**: Methods that use eigenvalues and eigenvectors of graph Laplacian matrices to partition the graph into clusters or communities.
+
+- **Stochastic Block Model (SBM)**: Probabilistic model for community detection based on vertex probabilities of belonging to a given community.
+
+***
+
+### Graph Traversal and Pattern Mining
+
+- **Graph Traversal**: Procedures for visiting vertices in a graph, such as BFS (breadth-first search), DFS (depth-first search), and variations for shortest path or flow computation.
+
+- **Pattern Matching/Subgraph Mining**: Searching for occurrences of a specific pattern or subgraph structure, such as triangles, chains, or motifs across the graph. Used for fraud detection, biology, etc.
+
+***
+
+### Advanced and Distributed Graph Terms
+
+- **Edge-Centric Model**: Distributed graph processing framework focusing on edge computations, typically used for performance in graphs with non-uniform degree distributions.
+
+- **Vertex-Centric Model**: Processing framework centering on vertex operations, popular in scalable graph analytics (e.g., Pregel, GraphLab).
+
+- **Subgraph-Centric Model**: Framework focusing on local subgraph computations to reduce inter-machine communication in distributed graph analysis.
+
+- **Graph Partitioning**: Dividing a graph into subsets (partitions) to optimize load balancing and minimize communication overhead in distributed settings.
+
+***
+
+### Graph Covering and Optimization
+
+- **Minimum Vertex Cover**: A covering set containing the smallest number of nodes such that every edge is incident to at least one node in the set.
+
+- **Maximum Matching**: A set of edges that do not share vertices and is as large as possible, a central optimization in resource allocation.
+
+- **Graph Coloring**: Assignment of colors to vertices so that no adjacent vertices share the same color, used in scheduling and resource allocation problems.
+
