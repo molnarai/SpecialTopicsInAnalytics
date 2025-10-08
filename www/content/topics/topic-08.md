@@ -15,15 +15,36 @@ We cover libraries like OpenCV and scikit-image to gain practical experience ana
 
 
 ## Required Reading and Listening
-TBA
-<!-- Listen to the [podcast](../../podcasts/podcast-08-agentic-ai/): -->
 
-<!-- Listen to the podcast: -->
-
-<!-- <audio controls>
-    <source src="https://insight-gsu-edu-msa8700-public-files-us-east-1.s3.us-east-1.amazonaws.com/podcast/Agentic+AI_+Autonomous+Intelligence+for+Complex+Goals%E2%80%94A+Comprehensive+Survey.wav" type="audio/wav">
+Listen to the podcast:
+<ol>
+<li> Brief Overview<br />
+<audio controls>
+    <source src="https://insight-gsu-edu-msa8700-public-files-us-east-1.s3.us-east-1.amazonaws.com/podcast/Pixels_to_Power__Mastering_the_Core_Tools_of_Digital_Image_Proc.m4a" type="audio/m4a">
     Your browser does not support the audio element.
-</audio> -->
+</audio>
+</li>
+<li>
+<li> Deep Dive<br />
+<audio controls>
+    <source src="https://insight-gsu-edu-msa8700-public-files-us-east-1.s3.us-east-1.amazonaws.com/podcast/From_Pixels_to_Features__The_Deep_Dive_into_Machine_Vision%2C_Col.m4a" type="audio/m4a">
+    Your browser does not support the audio element.
+</audio>
+</li>
+</ol>
+
+## Textbooks: 
+ - [Hands-On Image Processing with Python](https://go.oreilly.com/georgia-state-university/library/view/hands-on-image-processing/9781789343731/)
+By Sandipan Dey, Packt Publishing, November 2018. [(GitHub)](https://github.com/PacktPublishing/Hands-On-Image-Processing-with-Python)
+- [Mastering OpenCV 4 with Python](https://go.oreilly.com/georgia-state-university/library/view/mastering-opencv-4/9781789344912/)
+By Alberto Fernández Villán, Packt Publishing, March 2019. [(GitHub)](https://github.com/PacktPublishing/Mastering-OpenCV-4-with-Python)
+- [Python Image Processing Cookbook](https://go.oreilly.com/georgia-state-university/library/view/python-image-processing/9781789537147/)
+By Sandipan Dey, Packt Publishing, April 2020. [(GitHub)](https://github.com/PacktPublishing/Python-Image-Processing-Cookbook)
+- [Feature Extraction and Image Processing for Computer Vision, 4th Edition](https://go.oreilly.com/georgia-state-university/library/view/feature-extraction-and/9780128149775/)
+By Mark Nixon, Alberto Aguado, Academic Press, November 2019.
+
+
+
 
 
 
