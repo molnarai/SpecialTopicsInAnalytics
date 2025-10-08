@@ -1,0 +1,110 @@
+# SEC Filing Processor Configuration
+# Advanced settings for Spark on Kubernetes with NLP processing
+
+# ==============================================================================
+# APPLICATION SETTINGS
+# ==============================================================================
+app:
+  name: "sec-filing-processor"
+  version: "1.0.0"
+  log_level: "INFO"
+
+# ==============================================================================
+# KUBERNETES SETTINGS  
+# ==============================================================================
+kubernetes:
+  namespace: "spark-nlp"
+  service_account: "spark-service-account"
+  image_pull_policy: "Always"
+
+# ==============================================================================
+# DOCKER IMAGE SETTINGS
+# ==============================================================================
+docker:
+  registry: "your-registry.com"
+  image_name: "sec-filing-spark"
+  tag: "latest"
+
+# ==============================================================================
+# SPARK CONFIGURATION
+# ==============================================================================
+spark:
+  driver:
+    memory: "2g"
+    cores: "1"
+    max_result_size: "1g"
+
+  executor:
+    memory: "4g"
+    cores: "2"
+    instances: "4"
+    memory_overhead: "512m"
+
+  # Dynamic allocation settings
+  dynamic_allocation:
+    enabled: true
+    min_executors: 2
+    max_executors: 20
+    initial_executors: 4
+
+  # Performance tuning
+  sql:
+    adaptive:
+      enabled: true
+      coalesce_partitions: true
+      skip_skewed_join: true
+
+  serializer: "org.apache.spark.serializer.KryoSerializer"
+
+# ==============================================================================
+# S3 CONFIGURATION
+# ==============================================================================
+s3:
+  input_path: "s3a://your-sec-filings-bucket/input/"
+  output_path: "s3a://your-sec-filings-bucket/output/"
+  checkpoint_path: "s3a://your-sec-filings-bucket/checkpoints/"
+
+  # S3A Configuration
+  s3a:
+    impl: "org.apache.hadoop.fs.s3a.S3AFileSystem"
+    fast_upload: true
+    multipart_size: "104857600"  # 100MB
+    multipart_threshold: "2147483647"  # 2GB
+    connection_maximum: "15"
+
+# ==============================================================================
+# NLP PROCESSING SETTINGS
+# ==============================================================================
+nlp:
+  # SpaCy model settings
+  spacy:
+    model: "en_core_web_sm"
+    max_length: 1000000  # Max text length for processing
+
+  # Entity types to extract
+  entity_types:
+    - "PERSON"
+    - "ORG" 
+    - "GPE"
+    - "MONEY"
+    - "PERCENT"
+    - "DATE"
+    - "CARDINAL"
+
+  # Text processing settings
+  processing:
+    max_paragraph_length: 2000
+    min_paragraph_length: 50
+    sentence_split_threshold: 1000
+
+# ==============================================================================
+# MONITORING AND LOGGING
+# ==============================================================================
+monitoring:
+  metrics_enabled: true
+  history_server_enabled: true
+  event_log_enabled: true
+
+logging:
+  level: "INFO"
+  pattern: "%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n"

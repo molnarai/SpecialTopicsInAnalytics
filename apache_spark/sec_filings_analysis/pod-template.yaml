@@ -1,0 +1,103 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    app: sec-filing-processor
+    version: v1.0.0
+spec:
+  # Security context
+  securityContext:
+    runAsNonRoot: true
+    runAsUser: 185
+    fsGroup: 185
+
+  # Node selector for specific node types
+  nodeSelector:
+    workload-type: "spark"
+
+  # Tolerations for tainted nodes
+  tolerations:
+  - key: "spark-workload"
+    operator: "Equal"
+    value: "true"
+    effect: "NoSchedule"
+
+  # Affinity rules
+  affinity:
+    nodeAffinity:
+      preferredDuringSchedulingIgnoredDuringExecution:
+      - weight: 100
+        preference:
+          matchExpressions:
+          - key: instance-type
+            operator: In
+            values:
+            - "memory-optimized"
+            - "compute-optimized"
+
+    # Pod anti-affinity to spread executors across nodes
+    podAntiAffinity:
+      preferredDuringSchedulingIgnoredDuringExecution:
+      - weight: 100
+        podAffinityTerm:
+          labelSelector:
+            matchExpressions:
+            - key: spark-role
+              operator: In
+              values:
+              - executor
+          topologyKey: kubernetes.io/hostname
+
+  containers:
+  - name: spark
+    # Resource limits and requests
+    resources:
+      requests:
+        memory: "4Gi"
+        cpu: "2000m"
+      limits:
+        memory: "4Gi"
+        cpu: "2000m"
+
+    # Environment variables
+    env:
+    - name: SPARK_USER
+      value: "spark"
+    - name: PYTHONPATH
+      value: "/app:/opt/spark/python/lib/pyspark.zip:/opt/spark/python/lib/py4j-0.10.9.5-src.zip"
+
+    # Volume mounts
+    volumeMounts:
+    - name: spark-local-dir
+      mountPath: /tmp/spark-local
+    - name: nlp-models
+      mountPath: /opt/nlp-models
+      readOnly: true
+
+    # Liveness and readiness probes
+    livenessProbe:
+      exec:
+        command:
+        - /bin/sh
+        - -c
+        - "ps aux | grep -v grep | grep java"
+      initialDelaySeconds: 30
+      periodSeconds: 30
+      timeoutSeconds: 10
+
+  # Volumes
+  volumes:
+  - name: spark-local-dir
+    emptyDir:
+      sizeLimit: "10Gi"
+  - name: nlp-models
+    configMap:
+      name: nlp-models-config
+
+  # DNS configuration
+  dnsPolicy: ClusterFirst
+  dnsConfig:
+    options:
+    - name: ndots
+      value: "2"
+    - name: edns0

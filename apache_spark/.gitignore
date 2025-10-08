@@ -1,0 +1,6 @@
+*.csv
+*.json
+*.parquet
+*.crc
+tmp/*
+_SUCCESS
