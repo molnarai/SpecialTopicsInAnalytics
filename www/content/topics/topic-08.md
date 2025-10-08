@@ -24,7 +24,6 @@ Listen to the podcast:
     Your browser does not support the audio element.
 </audio>
 </li>
-<li>
 <li> Deep Dive<br />
 <audio controls>
     <source src="https://insight-gsu-edu-msa8700-public-files-us-east-1.s3.us-east-1.amazonaws.com/podcast/From_Pixels_to_Features__The_Deep_Dive_into_Machine_Vision%2C_Col.m4a" type="audio/m4a">
@@ -43,7 +42,10 @@ By Sandipan Dey, Packt Publishing, April 2020. [(GitHub)](https://github.com/Pac
 - [Feature Extraction and Image Processing for Computer Vision, 4th Edition](https://go.oreilly.com/georgia-state-university/library/view/feature-extraction-and/9780128149775/)
 By Mark Nixon, Alberto Aguado, Academic Press, November 2019.
 
-
+![Hands-On Image Processing with Python](Bookcover_Hands-On_Image_Processing_with_Python.jpeg)
+![Mastering OpenCV 4 with Python](Bookcover_Mastering_OpenCV_4_with_Python.jpeg)
+![Python Image Processing Cookbook](Bookcover_Python_Image_Processing_Cookbook.jpeg)
+![Feature Extraction and Image Processing for Computer Vision, 4th Edition](Bookcover_Feature_Extraction_and_Image_Processing_for_Computer_Vision.jpeg)
 
 
 
