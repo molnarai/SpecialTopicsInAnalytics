@@ -10,7 +10,7 @@ status = 'Posted'
 
 ## **Project Overview**
 
-This programming project challenges to develop a comprehensive computer vision system for analyzing urban traffic signs from real-world street scene imagery. Students will apply classical computer vision techniques, feature extraction methods, traditional machine learning classifiers, and modern deep learning approaches to build a robust traffic sign detection and recognition pipeline. The project uses the [**Mapillary Traffic Sign Dataset**](https://labelbox.com/datasets/mapillary-traffic-sign-dataset/), which contains over 100,000 high-resolution images from diverse global locations with varying weather conditions, lighting, viewpoints, and camera sensors—making it an ideal testbed for advanced computer vision methods.
+This programming project challenges to develop a comprehensive computer vision system for analyzing urban traffic signs from real-world street scene imagery. Students will apply classical computer vision techniques, feature extraction methods, traditional machine learning classifiers, and modern deep learning approaches to build a robust traffic sign detection and recognition pipeline. The project uses the [**Mapillary Traffic Sign Dataset**](https://labelbox.com/datasets/mapillary-traffic-sign-dataset/) (https://www.mapillary.com/dataset/trafficsign) , which contains over 100,000 high-resolution images from diverse global locations with varying weather conditions, lighting, viewpoints, and camera sensors—making it an ideal testbed for advanced computer vision methods.
 
 
 
@@ -304,7 +304,7 @@ By completing this project, students will produce:
 
 **Dataset Access**:
 
-- **Mapillary Traffic Sign Dataset**: Available from Mapillary research page <https://labelbox.com/datasets/mapillary-traffic-sign-dataset/>
+- **Mapillary Traffic Sign Dataset**: Available from Mapillary research page <https://labelbox.com/datasets/mapillary-traffic-sign-dataset/> or <https://www.mapillary.com/dataset/trafficsign>
 - The image dataset is available on ARC in `/data/project/MSA8395/mapillary_traffic_sign_dataset`
 
 
