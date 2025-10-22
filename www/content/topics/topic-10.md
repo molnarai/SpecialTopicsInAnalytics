@@ -24,3 +24,18 @@ Through practical implementation, students will train and evaluate deep detectio
     Your browser does not support the audio element.
 </audio> -->
 
+## Textbooks: 
+ - [Hands-On Image Processing with Python](https://go.oreilly.com/georgia-state-university/library/view/hands-on-image-processing/9781789343731/)
+By Sandipan Dey, Packt Publishing, November 2018. [(GitHub)](https://github.com/PacktPublishing/Hands-On-Image-Processing-with-Python)
+- [Mastering OpenCV 4 with Python](https://go.oreilly.com/georgia-state-university/library/view/mastering-opencv-4/9781789344912/)
+By Alberto Fernández Villán, Packt Publishing, March 2019. [(GitHub)](https://github.com/PacktPublishing/Mastering-OpenCV-4-with-Python)
+- [Python Image Processing Cookbook](https://go.oreilly.com/georgia-state-university/library/view/python-image-processing/9781789537147/)
+By Sandipan Dey, Packt Publishing, April 2020. [(GitHub)](https://github.com/PacktPublishing/Python-Image-Processing-Cookbook)
+- [Feature Extraction and Image Processing for Computer Vision, 4th Edition](https://go.oreilly.com/georgia-state-university/library/view/feature-extraction-and/9780128149775/)
+By Mark Nixon, Alberto Aguado, Academic Press, November 2019.
+
+![Hands-On Image Processing with Python](Bookcover_Hands-On_Image_Processing_with_Python.jpeg)
+![Mastering OpenCV 4 with Python](Bookcover_Mastering_OpenCV_4_with_Python.jpeg)
+![Python Image Processing Cookbook](Bookcover_Python_Image_Processing_Cookbook.jpeg)
+![Feature Extraction and Image Processing for Computer Vision, 4th Edition](Bookcover_Feature_Extraction_and_Image_Processing_for_Computer_Vision.jpeg)
+
