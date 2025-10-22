@@ -49,7 +49,7 @@ Read the following:
 1. Blog: [Label Propagation for Community Detection](https://www.perplexity.ai/page/label-propagation-for-communit-1iz8O6yMQAWY1gxnNK2kBQ)
 2. Textbook: [Graph Algorithms](https://learning.oreilly.com/library/view/graph-algorithms/9781492047674/ch01.html)
 Mark Needham, Amy E. Hodler, May 2019, O'Reilly Media Inc.
-2. Textbook: [Chapter 9. Advanced Text Generation Techniques and Tools](https://go.oreilly.com/georgia-state-university/library/view/pyspark-sql-recipes/9781484243350/html/469054_1_En_9_Chapter.xhtml) 
+2. Textbook: [Chapter 9. Graphframes](https://go.oreilly.com/georgia-state-university/library/view/pyspark-sql-recipes/9781484243350/html/469054_1_En_9_Chapter.xhtml) 
 in Raju Kumar Mishra, Sundar Rajan Raman, "PySpark SQL Recipes: With HiveQL, Dataframe and Graphframes", March 2019, Apress.
 
 

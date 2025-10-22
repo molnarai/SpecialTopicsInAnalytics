@@ -69,32 +69,29 @@ jobs:
           HUGO_ENVIRONMENT: production
           TZ: America/New_York
         run: |
+          cd www
           if [[ "${{ github.ref }}" == "refs/heads/pages" ]]; then
             # Preview build (pages branch)
-            cd www && hugo \
+            hugo \
               --gc \
               --buildDrafts \
               --buildFuture \
               --buildExpired \
               --minify \
               --baseURL "${{ steps.pages.outputs.base_url }}/preview/"
-            mkdir -p ../public/preview
-            mv public/* ../public/preview/
           else
             # Production build (main branch)
-            cd www && hugo \
+            hugo \
               --gc \
               --minify \
               --buildFuture \
               --baseURL "${{ steps.pages.outputs.base_url }}/"
-            mkdir -p ../public
-            mv public/* ../public/
           fi
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./public
+          path: ./www/public
           name: github-pages
 
   deploy:

@@ -42,10 +42,10 @@ By Sandipan Dey, Packt Publishing, April 2020. [(GitHub)](https://github.com/Pac
 - [Feature Extraction and Image Processing for Computer Vision, 4th Edition](https://go.oreilly.com/georgia-state-university/library/view/feature-extraction-and/9780128149775/)
 By Mark Nixon, Alberto Aguado, Academic Press, November 2019.
 
-![Hands-On Image Processing with Python](Bookcover_Hands-On_Image_Processing_with_Python.jpeg)
-![Mastering OpenCV 4 with Python](Bookcover_Mastering_OpenCV_4_with_Python.jpeg)
-![Python Image Processing Cookbook](Bookcover_Python_Image_Processing_Cookbook.jpeg)
-![Feature Extraction and Image Processing for Computer Vision, 4th Edition](Bookcover_Feature_Extraction_and_Image_Processing_for_Computer_Vision.jpeg)
+{{< figure src="/images/Bookcover_Hands-On_Image_Processing_with_Python.jpeg" alt="Hands-On Image Processing with Python" width="200px" >}}
+{{< figure src="/images/Bookcover_Mastering_OpenCV_4_with_Python.jpeg" alt="Mastering OpenCV 4 with Python" width="200px" >}}
+{{< figure src="/images/Bookcover_Python_Image_Processing_Cookbook.jpeg" alt="Python Image Processing Cookbook" width="200px" >}}
+{{< figure src="/images/Bookcover_Feature_Extraction_and_Image_Processing_for_Computer_Vision.jpeg" alt="Feature Extraction and Image Processing for Computer Vision, 4th Edition" width="200px" >}}
 
 
 

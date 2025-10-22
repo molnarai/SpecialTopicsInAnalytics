@@ -15,30 +15,28 @@ In this session, students move beyond basic image manipulations to the extractio
 
 ## Required Reading and Listening
 
-Listen to the [podcast](../../podcasts/podcast-09-agentic-ai-frameworks/):
+<!-- Listen to the [podcast](../../podcasts/podcast-09-agentic-ai-frameworks/):
 
 <!-- Listen to the podcast: -->
 
-<audio controls>
+<!-- <audio controls>
     <source src="https://insight-gsu-edu-msa8700-public-files-us-east-1.s3.us-east-1.amazonaws.com/podcast/Agentic_AI_frameworks.wav" type="audio/wav">
     Your browser does not support the audio element.
-</audio>
+</audio> -->
 
-[(Click here for transcript)](../../podcasts/podcast-09-agentic-ai-frameworks/)
+## Textbooks: 
+ - [Hands-On Image Processing with Python](https://go.oreilly.com/georgia-state-university/library/view/hands-on-image-processing/9781789343731/)
+By Sandipan Dey, Packt Publishing, November 2018. [(GitHub)](https://github.com/PacktPublishing/Hands-On-Image-Processing-with-Python)
+- [Mastering OpenCV 4 with Python](https://go.oreilly.com/georgia-state-university/library/view/mastering-opencv-4/9781789344912/)
+By Alberto Fernández Villán, Packt Publishing, March 2019. [(GitHub)](https://github.com/PacktPublishing/Mastering-OpenCV-4-with-Python)
+- [Python Image Processing Cookbook](https://go.oreilly.com/georgia-state-university/library/view/python-image-processing/9781789537147/)
+By Sandipan Dey, Packt Publishing, April 2020. [(GitHub)](https://github.com/PacktPublishing/Python-Image-Processing-Cookbook)
+- [Feature Extraction and Image Processing for Computer Vision, 4th Edition](https://go.oreilly.com/georgia-state-university/library/view/feature-extraction-and/9780128149775/)
+By Mark Nixon, Alberto Aguado, Academic Press, November 2019.
 
-Read the following:
-
-1. Summary Blog: [Agentic AI Frameworks Overview](https://www.perplexity.ai/page/agentic-ai-frameworks-overview-l0jpYXtgQJaRq.ORXBTSpQ)
-
-2. Textbook: Michael Albada, **Building Applications with AI Agents, Chapters 3, 4, 5, 7.** 1st ed., Published by O’Reilly Media, Inc., ISBN-13 978-1098176495.
-This book is available in print and digital on O’Reilly Media.
-[GSU Library Link](https://go.oreilly.com/georgia-state-university/library/view/building-applications-with/9781098176495/)
-
-Additional suggested reading:
-
-1. Lekha Priya, [Agentic RAG: The Next Frontier in Generative AI and Dynamic Intelligence](https://lekha-bhan88.medium.com/agentic-rag-the-next-frontier-in-generative-ai-and-dynamic-intelligence-4902ad3e403f)
-
-2. Kerem Aydin, [Which AI Agent framework should i use? (CrewAI, Langgraph, Majestic-one and pure code)](https://medium.com/@aydinKerem/which-ai-agent-framework-i-should-use-crewai-langgraph-majestic-one-and-pure-code-e16a6e4d9252)
+![Hands-On Image Processing with Python](Bookcover_Hands-On_Image_Processing_with_Python.jpeg)
+![Mastering OpenCV 4 with Python](Bookcover_Mastering_OpenCV_4_with_Python.jpeg)
+![Python Image Processing Cookbook](Bookcover_Python_Image_Processing_Cookbook.jpeg)
+![Feature Extraction and Image Processing for Computer Vision, 4th Edition](Bookcover_Feature_Extraction_and_Image_Processing_for_Computer_Vision.jpeg)
 
 
-More resources can be found on the resource page [Agentic AI Related Texts](../../resources/resource-agenticai-texts/)
