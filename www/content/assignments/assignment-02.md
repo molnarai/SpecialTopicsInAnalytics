@@ -4,7 +4,7 @@ due_date = "2025-11-12"
 draft = false
 title = 'Computer Vision Project'
 weight = 20
-status = 'Not Posted'
+status = 'Posted'
 +++
 # **Computer Vision Programming Project: Urban Traffic Sign Recognition and Analysis System**
 
