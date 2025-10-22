@@ -30,7 +30,7 @@ The image dataset is available on ARC in `/data/project/MSA8395/mapillary_traffi
 
 ## **Project Requirements**
 
-### **Phase 1: Dataset Preparation, Preprocessing \& Region Proposal **
+### **Phase 1: Dataset Preparation, Preprocessing \& Region Proposal**
 
 **Timeline: Week 1**
 
@@ -152,55 +152,55 @@ Develop a classical computer vision pipeline to detect sign candidates **without
 1. **End-to-End System Comparison**:
 
 Compare **two complete pipelines**:
-    - **Classical Pipeline**: Color/shape region proposal → HOG+Color features → SVM/RF classification
-    - **Deep Learning Pipeline**: Transfer learning classification OR YOLO detection (if implemented)
+- **Classical Pipeline**: Color/shape region proposal → HOG+Color features → SVM/RF classification
+- **Deep Learning Pipeline**: Transfer learning classification OR YOLO detection (if implemented)
 
 **Metrics to Report**:
-    - Detection performance: Precision, Recall, F1 at different IoU thresholds
-    - Classification accuracy, per-class precision/recall
-    - Combined detection + classification accuracy (correct class in correct location)
-    - Inference speed (images/second or FPS)
-    - Model size and memory requirements
+- Detection performance: Precision, Recall, F1 at different IoU thresholds
+- Classification accuracy, per-class precision/recall
+- Combined detection + classification accuracy (correct class in correct location)
+- Inference speed (images/second or FPS)
+- Model size and memory requirements
 
 **Performance Table**: Create comprehensive comparison showing all metrics across approaches.
 2. **Failure Analysis**:
-    - **Detection Failures**: Analyze missed signs and false positives
-        - Categorize by failure mode: occlusion, extreme scale, poor lighting, cluttered background
-        - Compare classical vs. deep learning failure patterns
-    - **Classification Failures**: Examine misclassified signs
-        - Identify confused class pairs (visually similar signs)
-        - Show examples of challenging cases with model predictions
-        - Analyze confidence scores on failures
-    - **Visualization Gallery**: Create figure showing:
-        - Successful detections and classifications
-        - Detection failures (missed signs)
-        - False positives (non-sign regions detected)
-        - Classification errors with predicted vs. true labels
+- **Detection Failures**: Analyze missed signs and false positives
+    - Categorize by failure mode: occlusion, extreme scale, poor lighting, cluttered background
+    - Compare classical vs. deep learning failure patterns
+- **Classification Failures**: Examine misclassified signs
+    - Identify confused class pairs (visually similar signs)
+    - Show examples of challenging cases with model predictions
+    - Analyze confidence scores on failures
+- **Visualization Gallery**: Create figure showing:
+    - Successful detections and classifications
+    - Detection failures (missed signs)
+    - False positives (non-sign regions detected)
+    - Classification errors with predicted vs. true labels
 3. **Insights and Recommendations**:
 
 **When Classical Methods Excel**:
-    - Specific color/shape patterns (high-contrast circular signs)
-    - Limited training data scenarios
-    - Interpretable features needed
-    - Resource-constrained deployment
+- Specific color/shape patterns (high-contrast circular signs)
+- Limited training data scenarios
+- Interpretable features needed
+- Resource-constrained deployment
 
 **When Deep Learning Excels**:
-    - Complex backgrounds and occlusions
-    - Weathered or partially visible signs
-    - Scale and viewpoint variations
-    - Large labeled datasets available
+- Complex backgrounds and occlusions
+- Weathered or partially visible signs
+- Scale and viewpoint variations
+- Large labeled datasets available
 
 **Real-World Deployment Scenarios**:
-    - **Autonomous Vehicles**: Requirements for accuracy, speed, robustness
-    - **Infrastructure Monitoring**: Municipal sign inventory and maintenance
-    - **Driver Assistance**: Mobile apps for navigation and safety
-    - **Accessibility Tools**: Assistive technology for visually impaired users
+- **Autonomous Vehicles**: Requirements for accuracy, speed, robustness
+- **Infrastructure Monitoring**: Municipal sign inventory and maintenance
+- **Driver Assistance**: Mobile apps for navigation and safety
+- **Accessibility Tools**: Assistive technology for visually impaired users
 
 **Recommendations**: Based on your empirical results, provide guidance on:
-    - Optimal approach for different deployment constraints
-    - Data requirements to achieve target accuracy levels
-    - Strategies for handling your dataset's specific challenges
-    - Future improvements and research directions
+- Optimal approach for different deployment constraints
+- Data requirements to achieve target accuracy levels
+- Strategies for handling your dataset's specific challenges
+- Future improvements and research directions
 
 **Deliverable**: Final technical report (10-15 pages) including:
 
@@ -256,15 +256,6 @@ By completing this project, students will produce:
     - Discussion of practical implications
     - Conclusions and future work recommendations
 
-### **Skills Demonstrated**
-
-- **Real-World Problem Solving**: Working with complex, large-scale datasets containing natural variations and challenges[^1]
-- **Image Processing Mastery**: Color space manipulation, filtering, edge detection, morphological operations using OpenCV and scikit-image[^2][^1]
-- **Classical Computer Vision**: Region proposal, shape detection (Hough transforms), feature engineering (HOG, color, ORB)[^2][^1]
-- **Machine Learning**: Training, tuning, and evaluating classifiers with proper validation strategies and performance metrics[^1]
-- **Deep Learning**: Transfer learning, data augmentation, training optimization, and potentially object detection frameworks[^3][^1]
-- **Critical Analysis**: Objective evaluation of approaches, identifying failure modes, understanding tradeoffs, making evidence-based recommendations[^1]
-- **Project Management**: Successfully scoping and completing a complex multi-phase project within time constraints
 
 
 ## **Grading Rubric**
