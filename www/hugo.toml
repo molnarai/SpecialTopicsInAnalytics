@@ -1,7 +1,8 @@
-baseURL = 'http://www.insight.gsu.edu'
+baseURL = 'https://msa8395.molnar.ai'
 languageCode = 'en-us'
 title = 'MSA 8395'
 theme = 'pmolnar'
+buildFuture = true
 
 [services]
   [services.googleAnalytics]
@@ -47,7 +48,7 @@ theme = 'pmolnar'
 # syntax highlight settings
 [markup]
   [markup.highlight]
-    style = "dracula"
+    style = "friendly"
   [markup.goldmark.renderer]
     # Enable to include inline HTML
     unsafe = true
